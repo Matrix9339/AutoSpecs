@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    position: relative;
+    font-size: xx-large;
+}
+
+.cat-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.dark .cat-body{
+    color: white;
+}
+
+.vid{
+    height: 65vh;
+    width: 99vw;
+    padding-top: 10px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.notlogedin{
+    background-image: url("../../../assets/payment.jpg");
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    margin: 10px 0px;
+    align-content: center;
+}
+
+.sp{
+    /* border: 4px solid black; */
+    padding: 3%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.639);
+    color: white;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.dark .sp{
+    box-shadow: 10px 10px 5px rgba(173, 216, 230, 0.71);
+}
+
+.categories ul li{
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    min-width: 25%;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.dark .categories ul li:hover{
+    transition: 0.5s;
+    color: #119af5;
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.191);
+}
+.light .categories ul li:hover{
+    transition: 0.5s;
+    color: #119af5;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.134);
+}
+.dark .categories ul li{
+    color: white;
+    border: 2px solid rgb(250, 250, 250);
+}
+.categories{
+    margin: 5% 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.categories ul{
+    align-items: center;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.car-item{
+    width: 25vw;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.126);
+    padding: 10px;
+}
+
+.car-item img{
+    max-width: 100%;
+    height: 35vh;
+}
+
+
+.car-items{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px;
+    grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.dark .car-item{
+    background-color: rgba(255, 255, 255, 0.047);
+    border: 2px solid white;
+}

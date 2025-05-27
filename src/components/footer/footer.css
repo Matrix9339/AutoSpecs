@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer {
+    /* border: 2px solid red; */
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(48, 48, 48, 0.126);
+    color: #fff;
+    margin: 4px 0px;
+    padding: 10px 1%;
+    bottom: 0;
+    justify-content: space-between;
+  
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  footer .about {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px 5%;
+  }
+  footer .dis {
+    margin: 10px;
+    padding: 0% 0% 0% 5%;
+    width: 35%;
+  }
+  footer .cr {
+    padding: 5% 0% 0% 6%;
+  }
+  footer .tr {
+    padding: 1% 0% 0% 6%;
+  }
+
+  .light footer{
+    background: #151515d2;
+  }
+  

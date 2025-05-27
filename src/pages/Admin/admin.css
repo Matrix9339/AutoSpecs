@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-body{
+    min-height: 100vh;
+    background-image: url(../../assets/adminlogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.admin-body h2{
+    margin-top: 30px;
+}
+
+header{
+    padding: 0px 15px;
+    align-items: center; 
+    margin: auto;
+    max-width: 99vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+header button{
+    position: absolute;
+    font-size: medium;
+    height: 7%;
+    width: 7%;
+    right: 10px;
+}
+
+.manage{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+table{
+    width: 100%;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255); /* You can adjust the border style here */
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+.user-manage{
+    margin: 10px 10px;
+    background: #00000039;
+}
+
+.car-manage{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #00000039;
+    margin: 10px 10px;
+}
+.test-manage{
+    margin: 10px 10px;
+    background: #00000039;
+}
+
+.addcar{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+
+}
+
+.formdat{
+    min-width: 90%;
+    margin-left: 5%;
+    margin: 10px 25px;
+    min-height: 90%;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+
+tbody button{
+    width: 95%;
+    padding: 6px 0px;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-container{
+    width: 99vw;
+    padding:1% 3%;
+}
+
+.ligh .slick-arrow .slick-prev{
+    background-color: black;
+}
+.imgs {
+    margin: 5px 0px;
+    padding: 5px 2px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+}
+.imgs img{
+    width: 95%;
+    height: 55vh;
+    object-fit: cover;
+    position: relative;
+}

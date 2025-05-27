@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 5px 16.5px;
+  transition: 0.5s;
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo-light {
+  width: 30px;
+  margin: auto;
+}
+.logo-light:hover {
+  cursor: pointer;
+}
+.logo img {
+  width: 65px;
+  border-radius: 50%;
+}
+.logo .na {
+  margin-left: 4px;
+  font-size: x-large;
+}
+.logo {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo:hover {
+  cursor: default;
+}
+.cont {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.cont li {
+  margin: auto;
+  padding: 5% 6%;
+
+}
+.cont li .linker {
+  color: white;
+  text-decoration: none;
+}
+.cont li:hover {
+  color: #119af5;
+  cursor: pointer;
+  background: #00000029;
+  transition: 0.5s;
+  text-decoration: Underline;
+}
+.cont li:hover {
+  color: #119af5;
+  cursor: pointer;
+  background: #b5b5b529;
+  transition: 0.5s;
+  text-decoration: Underline;
+}
+
+.dark .cont li:hover .linker {
+  color: #119af5;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.light .cont li .linker {
+  color: black;
+}
+
+.light .cont li:hover .linker {
+  color: #0099ff;
+  cursor: pointer;
+  /* background: #00000029; */
+}
+details,
+details summary {
+  padding: 1% 1%;
+  list-style: none;
+  list-style-position: outside;
+}
+.userdet {
+  margin-left: auto;
+  padding: 1.2% 2%;
+}
+.userdet .linker {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.userdet:hover .linker {
+  color: #0099ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.userdet li {
+  position: relative;
+}
+.userdet:hover {
+  color: #0099ff;
+  background: #b5b5b529;
+  cursor: default;
+  transition: 0.5s;
+}
+
+.light .userdet .linker{
+  color: black;
+}
+.light .userdet:hover li{
+  color: #0099ff;
+}
+
+.dark .navbar {
+  background: black;
+  color: white;
+}
+
+.Logout{
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  padding: .5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* .light .Logout{
+  background: #00000060;
+  color: white;
+} */
